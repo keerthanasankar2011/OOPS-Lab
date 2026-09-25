@@ -56,4 +56,4 @@ Unboxed boolean: true
 Parsed and autoboxed Integer: 300
 Parsed and autoboxed Float: 75.25
 Parsed and autoboxed Character: C
-Parsed and autoboxed Boolean: true
+Parsed and autoboxed Boolean: true 
