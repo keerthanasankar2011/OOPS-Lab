@@ -1,6 +1,5 @@
 import java.util.Scanner;
 import java.io.File;
-
 class FileDemo
 {
     public static void main(String[] args)
