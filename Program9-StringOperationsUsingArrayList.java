@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class ArrayListExample {
     public static void main(String args[]) {
         ArrayList<String> obj1 = new ArrayList<String>();
@@ -8,9 +7,7 @@ public class ArrayListExample {
         obj1.add("Chaitanya");
         obj1.add("Steve");
         obj1.add("Anuj");
-
         System.out.println("\nCurrently the array list obj1 has following elements:" + obj1);
-
         /*Append element at the end*/
         obj1.add("Babu");
         obj1.add("Kamal");
@@ -47,13 +44,11 @@ public class ArrayListExample {
         System.out.println("\nEnter the letter to display all the string start with given letter:");
         search = input.nextLine();
         ArrayList<String> obj3 = new ArrayList<String>();
-
         for (int i = 0; i < obj1.size(); i++) {
             if (obj1.get(i).startsWith(search.toUpperCase())) {
                 obj3.add(obj1.get(i));
             }
         }
-
         if (obj3.size() > 0) {
             System.out.println("\nArrayList obj1 contains all the string start with given " + search + ":" + obj3);
         } else {
